@@ -39,10 +39,11 @@ body {
 input {
   border: 0;
   font: inherit;
+  color: #FFFFFF;
 }
 
 input::placeholder {
-   color: #D8BFD8;
+  color: #D8BFD8;
 }
 
 .form__field {
@@ -55,7 +56,7 @@ input::placeholder {
 }
 
 .form input[type="email"], .form input[type="password"] {
-   width: 100%;
+  width: 100%;
 }
 
 .grid {
@@ -88,6 +89,10 @@ a {
    background-repeat: no-repeat;
    background-size: 1.5rem;
    background-position: 1rem 50%;
+}
+
+.txt {
+  color: #8ceabb;
 }
 
 
