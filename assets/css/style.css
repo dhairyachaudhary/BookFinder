@@ -279,12 +279,118 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
 
+.arrows path {
+	stroke: #D8BFD8;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; 
+}
+
+.arrows path.a3 {	
+	animation-delay:-.25s;
+	-webkit-animation-delay:-0.25s;
+}
 
 .al{
 	justify-self: right;
 	align-self:  center;
 	text-align: center;
 	color: #E6E6FA;
-	padding-bottom: 5px;
 }
+
+
+table {
+      border-collapse: collapse;
+      width: 100%;
+      color: #D8BFD8;
+      font-family: monospace;
+      font-size: 20px;
+      text-align: left;
+}
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #ba55d3;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 15px;
+}
+
+.searchTerm:focus{
+  color: #4b0082;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ba55d3;
+  background: #002b;
+  text-align: center;
+  color: #E6E6FA;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+th {
+      background-color: #694489;
+      color: #D8BFD8;
+    }
+    tr:nth-child(even) {background-color: #2E0854}
+
+
