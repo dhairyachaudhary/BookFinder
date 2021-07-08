@@ -3,7 +3,7 @@
 This repository contains a simple web app created for Digital Product School's challenge for the software engineering track for the upcoming cohort. This is an applications for finding books that allows users to add new books and view and search the existing records.
 
 <p align="center">
-  ![home page](https://user-images.githubusercontent.com/55681207/124938860-453df700-e026-11eb-90b6-e805b60ae716.PNG)
+  <img src="https://user-images.githubusercontent.com/55681207/124938860-453df700-e026-11eb-90b6-e805b60ae716.PNG">
 </p>
 
 ## Setup 🤓
