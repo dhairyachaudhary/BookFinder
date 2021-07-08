@@ -1,4 +1,4 @@
-# BookFinder App
+# BookFinder App 📚
 
 This repository contains a simple web app created for Digital Product School's challenge for the software engineering track for the upcoming cohort. This is an applications for finding books that allows users to add new books and view and search the existing records.
 
